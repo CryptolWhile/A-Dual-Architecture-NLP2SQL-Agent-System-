@@ -159,10 +159,7 @@ Một bộ benchmark nghiêm ngặt (benchmark/) đánh giá cả hai hệ thố
 
 3. **Cấu hình biến môi trường**:
    Sao chép file môi trường mẫu và thêm OpenAI API Key của bạn:
-   ```bash
-   cp .env.example .env
-   ```
-   Sau đó, mở file `.env` và thiết lập khóa của bạn:
+   Sau đó, tạo file `.env` và thiết lập khóa của bạn:
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
    ```
