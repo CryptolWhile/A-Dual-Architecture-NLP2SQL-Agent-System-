@@ -159,10 +159,7 @@ A rigorous benchmark suite (benchmark/) evaluates both systems against a dataset
 
 3. **Configure Environment Variables**:
    Copy the example environment file and add your OpenAI API Key:
-   ```bash
-   cp .env.example .env
-   ```
-   Then, open the `.env` file and set your key:
+   Then, create the `.env` file and set your key:
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
    ```
